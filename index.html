@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- бутстрап -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+		crossorigin="anonymous"></script>
+	<!-- Иконки -->
+	<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.0.0/css/all.css">
+	<!-- Мои стили -->
+	<link rel="stylesheet" href="./src/style/fonts.css" type="text/css">
+	<link rel="stylesheet" href="./src/style/style.css" type="text/css">
+	<link rel="stylesheet" href="./src/style/media.css" type="text/css">
+	<title>LearnUp | Lesson № 8</title>
+</head>
+
+<body>
+	<div class="wrapper">
+
+		<header id="home" class="header">
+			<div class="header__wrapper ">
+				<figure class=" header__logo">
+					<img class="header__img" src="./src/assets/img/logo.png" alt="logo">
+					<figcaption class="header__brand-name">tajam</figcaption>
+				</figure>
+				<nav class="navbar navbar-expand-lg navbar-light bg-light header__menu menu-header">
+					<div class="container-fluid">
+						<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+							data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+							aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+							<ul class="navbar-nav me-auto mb-2 mb-lg-0 menu-header__list">
+								<li class="nav-item menu-header__item">
+									<a class="nav-link active menu-header__link" aria-current="page" href="#home">Home</a>
+								</li>
+								<li class="nav-item menu-header__item">
+									<a class="nav-link active menu-header__link" aria-current="page" href="#about">about</a>
+								</li>
+								<li class="nav-item menu-header__item">
+									<a class="nav-link active menu-header__link" aria-current="page"
+										href="#expertise">expertise</a>
+								</li>
+								<li class="nav-item menu-header__item">
+									<a class="nav-link active menu-header__link" aria-current="page" href="#teams">teams</a>
+								</li>
+								<li class="nav-item menu-header__item">
+									<a class="nav-link active menu-header__link" aria-current="page" href="#works">works</a>
+								</li>
+								<li class="nav-item menu-header__item">
+									<a class="nav-link active menu-header__link" aria-current="page" href="#people-say">people
+										say</a>
+								</li>
+								<li class="nav-item menu-header__item">
+									<a class="nav-link active menu-header__link" aria-current="page" href="#contact">contact</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+			<!-- слайдер -->
+			<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+				<!-- пагинация -->
+				<div class="carousel-indicators header__dots">
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+						class="active header__dot" aria-current="true" aria-label="Slide 1"></button>
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"
+						class="header__dot"></button>
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"
+						class="header__dot"></button>
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"
+						class="header__dot"></button>
+				</div>
+				<!-- слайды -->
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<div class="header__slide">
+							<h1 class="title title_color-white line_line-blue">we are awesome creative agency</h1>
+							<p class=" header__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus
+								eligendi
+								inventore
+								nam?
+								Sapiente, temporibus asperiores? Quibusdam, cupiditate. Laborum tempora voluptas culpa,
+								distinctio Lorem
+								ipsum dolor sit amet
+								voluptatum
+								dolorum quas dignissimos saepe nisi non impedit.
+								<br>
+								<br>
+								slide #1
+							</p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="header__slide">
+							<h1 class="title title_color-white line_line-blue">we are awesome creative agency</h1>
+							<p class=" header__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus
+								eligendi
+								inventore
+								nam?
+								Sapiente, temporibus asperiores? Quibusdam, cupiditate. Laborum tempora voluptas culpa,
+								distinctio Lorem
+								ipsum dolor sit amet
+								voluptatum
+								dolorum quas dignissimos saepe nisi non impedit.
+								<br>
+								<br>
+								slide #2
+							</p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="header__slide">
+							<h1 class="title title_color-white line_line-blue">we are awesome creative agency</h1>
+							<p class=" header__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus
+								eligendi
+								inventore
+								nam?
+								Sapiente, temporibus asperiores? Quibusdam, cupiditate. Laborum tempora voluptas culpa,
+								distinctio Lorem
+								ipsum dolor sit amet
+								voluptatum
+								dolorum quas dignissimos saepe nisi non impedit.
+								<br>
+								<br>
+								slide #3
+							</p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="header__slide">
+							<h1 class="title title_color-white line_line-blue">we are awesome creative agency</h1>
+							<p class=" header__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus
+								eligendi
+								inventore
+								nam?
+								Sapiente, temporibus asperiores? Quibusdam, cupiditate. Laborum tempora voluptas culpa,
+								distinctio Lorem
+								ipsum dolor sit amet
+								voluptatum
+								dolorum quas dignissimos saepe nisi non impedit.
+								<br>
+								<br>
+								slide #4
+							</p>
+						</div>
+					</div>
+					<button type="button" class="btn btn-primary header__button button " data-bs-toggle="modal"
+						data-bs-target="#exampleModal">
+						learn more
+					</button>
+					<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+						aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="exampleModalLabel">Hello</h5>
+									<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+								</div>
+								<div class="modal-body">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut expedita autem quos totam omnis
+									dolores nemo, maxime id vitae quisquam? Atque placeat, soluta consequuntur sed incidunt ad
+									consectetur quis iusto!
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary button" data-bs-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main class="page">
+
+			<section id="about" class="story _container">
+				<div class="story__logo">
+					<img src="./src/assets/img/store/logo.png" alt="logo" class="story__img">
+				</div>
+				<article class="story__wrapper">
+					<h2 class="story__title title title__text-left">our story</h2>
+					<p class="story__text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor
+						aliquet. Aenean sollicitudin, lorem quis
+						bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh
+						vulputate cursus
+					</p>
+					<p class="story__text">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.
+						Sed non mauris vitae erat consequat
+						auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+						himenaeos.</p>
+					<button type="button" class="btn btn-primary story__button button" data-bs-toggle="modal"
+						data-bs-target="#exampleModal">
+						learn more
+					</button>
+				</article>
+			</section>
+
+			<section class="watch">
+				<div class="watch__container">
+					<div class="modal fade" id="exampleModalToggle" aria-hidden="true"
+						aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+						<div class="modal-dialog modal-dialog-centered">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="exampleModalToggleLabel">Everybody like hypnotoad !!!</h5>
+									<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+								</div>
+								<div class="modal-body">
+									<iframe width="100%" height="315" src="https://www.youtube.com/embed/YGV61MSOCRI"
+										title="YouTube video player" frameborder="0"
+										allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+										allowfullscreen></iframe>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="modal fade" id="exampleModalToggle2" aria-hidden="true"
+						aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+						<div class="modal-dialog modal-dialog-centered">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="exampleModalToggleLabel2">Modal 2</h5>
+									<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+								</div>
+								<div class="modal-body">
+									Hide this modal and show the first with the button below.
+								</div>
+								<div class="modal-footer">
+									<button class="btn btn-primary" data-bs-target="#exampleModalToggle"
+										data-bs-toggle="modal">Back to
+										first</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a class="btn btn-primary watch__link" data-bs-toggle="modal" href="#exampleModalToggle" role="button">
+						<i class="fa-thin fa-circle-play"></i>
+						<span class="watch__text">watch our story</span>
+					</a>
+				</div>
+			</section>
+
+			<section id="expertise" class="expertise _container">
+				<h2 class="expertise__title title ">expertise</h2>
+				<span class="expertise__subtitle line ">Lorem ipsum dolor sit amet proin gravida nibh vel velit
+				</span>
+				<div class="expertise__wrapper">
+					<article class="expertise__item item-expertise">
+						<img src="./src/assets/img/expertise/icon/1.png" alt="icon display" class="item-expertise__img">
+						<span class="item-expertise__title">WEB DESIGN & DEVELOPMENT</span>
+						<p class="item-expertise__text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
+							velit
+							auctor aliquet Aenean.</p>
+					</article>
+					<article class="expertise__item item-expertise">
+						<img src="./src/assets/img/expertise/icon/2.png" alt="icon display" class="item-expertise__img">
+						<span class="item-expertise__title">BRANDING IDENTITY</span>
+						<p class="item-expertise__text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
+							velit
+							auctor aliquet Aenean.!</p>
+					</article>
+					<article class="expertise__item item-expertise">
+						<img src="./src/assets/img/expertise/icon/3.png" alt="icon display" class="item-expertise__img">
+						<span class="item-expertise__title">MOBILE APP</span>
+						<p class="item-expertise__text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
+							velit
+							auctor aliquet Aenean.</p>
+					</article>
+					<article class="expertise__item item-expertise">
+						<img src="./src/assets/img/expertise/icon/4.png" alt="icon display" class="item-expertise__img">
+						<span class="item-expertise__title">SEARCH ENGINE OPTIMIZATION</span>
+						<p class="item-expertise__text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
+							velit
+							auctor aliquet Aenean.</p>
+					</article>
+					<article class="expertise__item item-expertise">
+						<img src="./src/assets/img/expertise/icon/5.png" alt="icon display" class="item-expertise__img">
+						<span class="item-expertise__title">GAME DEVELOPMENT</span>
+						<p class="item-expertise__text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
+							velit
+							auctor aliquet Aenean.</p>
+					</article>
+					<article class="expertise__item item-expertise">
+						<img src="./src/assets/img/expertise/icon/6.png" alt="icon display" class="item-expertise__img">
+						<span class="item-expertise__title">MADE WITH LOVE</span>
+						<p class="item-expertise__text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
+							velit
+							auctor aliquet Aenean.</p>
+					</article>
+				</div>
+			</section>
+
+			<section id="teams" class="meet">
+				<div class="meet__wrapper _container">
+					<h2 class="meet__title title title_color-white">Meet our amazing team</h2>
+					<span class="meet__subtitle line">
+						Lorem ipsum dolor sit amet proin gravida nibh vel velit
+					</span>
+					<div class="meet__container">
+						<div class="meet__item item-meet">
+							<img
+								src="https://thumbs.dreamstime.com/b/black-smoke-motion-white-background-fire-design-165083583.jpg"
+								alt="picture" class="item-meet__img">
+							<div class="item-meet__wrapper">
+								<div class="item-meet__title">SEMF UCUK</div>
+								<div class="item-meet__subtitle">CEO & FOUNDER</div>
+							</div>
+						</div>
+						<div class="meet__item item-meet">
+							<img
+								src="https://thumbs.dreamstime.com/b/black-smoke-motion-white-background-fire-design-165083583.jpg"
+								alt="picture" class="item-meet__img">
+							<div class="item-meet__wrapper">
+								<div class="item-meet__title">DIK ADALIN</div>
+								<div class="item-meet__subtitle">ENGINEERING</div>
+							</div>
+						</div>
+						<div class="meet__item item-meet">
+							<img
+								src="https://thumbs.dreamstime.com/b/black-smoke-motion-white-background-fire-design-165083583.jpg"
+								alt="picture" class="item-meet__img">
+							<div class="item-meet__wrapper">
+								<div class="item-meet__title">PET ROMAK</div>
+								<div class="item-meet__subtitle">DESIGNER</div>
+							</div>
+						</div>
+						<div class="meet__item item-meet">
+							<img
+								src="https://thumbs.dreamstime.com/b/black-smoke-motion-white-background-fire-design-165083583.jpg"
+								alt="picture" class="item-meet__img">
+							<div class="item-meet__wrapper">
+								<div class="item-meet__title">PET ROMAK</div>
+								<div class="item-meet__subtitle">PET ROMAK</div>
+							</div>
+						</div>
+					</div>
+					<span class="meet__text">Become part of our dream team, let’s join us !</span>
+					<button class="meet__button button">We are hiring</button>
+				</div>
+			</section>
+
+			<sections id="works" class="works">
+				<header class="works__header _container">
+					<h2 class="works__title title">our works</h2>
+					<a href="#" class="works__text">see all project in dribbble</a>
+				</header>
+				<div class="works__body">
+					<div class="works__wrapper">
+						<img
+							src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr-oM39OqBCgUncMTs88Hk7fWuEPiihQaxmw&usqp=CAU"
+							alt="our work" class="works__img">
+					</div>
+					<div class="works__wrapper">
+						<img
+							src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjN9LelcucDM7SSJqTf3OFbc6YglBAvtO1JA&usqp=CAU"
+							alt="our work" class="works__img">
+					</div>
+					<div class="works__wrapper">
+						<img
+							src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTufBTSTgHgDApCMQwsP5qY80GgRHxMHqAyoQ&usqp=CAU"
+							alt="our work" class="works__img">
+					</div>
+					<div class="works__wrapper">
+						<img
+							src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsqSko9zKqiQjO_0XmshhHrzV0ctmQU9ThfQ&usqp=CAU"
+							alt="our work" class="works__img">
+					</div>
+					<div class="works__wrapper">
+						<img
+							src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYJh5JQ2807fdaIXgJKzq62C24o44sNEZQtQ&usqp=CAU"
+							alt="our work" class="works__img">
+					</div>
+					<div class="works__wrapper">
+						<img
+							src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLxJgP_I2JdGT0uGj3JaYsDBhvydrWyHVpyQ&usqp=CAU"
+							alt="our work" class="works__img">
+					</div>
+					<div class="works__wrapper">
+						<img
+							src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLkFkZ9hsR_cQ6U93_dH1M6XKU8UANc9wrjA&usqp=CAU"
+							alt="our work" class="works__img">
+					</div>
+					<div class="works__wrapper">
+						<img
+							src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX77JbqtFFzMQLiL9WMovkpIB24FD0zszoJg&usqp=CAU"
+							alt="our work" class="works__img">
+					</div>
+					<div class="works__wrapper">
+						<img
+							src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlCSm1NNSXii33w3gG8lchhvYcfg3B5XUYFg&usqp=CAU"
+							alt="our work" class="works__img">
+					</div>
+					<div class="works__wrapper">
+						<img
+							src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl0caSQxj3Q3bDaxKmrhMEJaQD6bXtdhx0iw&usqp=CAU"
+							alt="our work" class="works__img">
+					</div>
+					<div class="works__wrapper">
+						<img
+							src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfwl0v3_OXMCpJqv9X5xdWo6jYVyOhHyDz1Q&usqp=CAU"
+							alt="our work" class="works__img">
+					</div>
+					<div class="works__wrapper">
+						<img src="https://mirpozitiva.ru/wp-content/uploads/2019/11/1480494344_kot_sneg.jpg" alt="our work"
+							class="works__img">
+					</div>
+				</div>
+				<footer class="works__footer">
+					<button class="works__button button">Load more</button>
+				</footer>
+			</sections>
+
+			<section id="people-say" class="comments">
+				<header class="comments__header">“</header>
+				<article class="comments__body">
+					<p class="comments__text _container">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
+						velit auctor
+						aliquet. Aenean sollicitudin, lorem quis
+						bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh
+						vulputate cursus
+						a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.
+						Sed non mauris
+						vitae erat consequat auctor eu in elit.</p>
+					<address class=" comments__person">
+						<span class="comments__name">Jane galadriel</span>
+						<span class="comments__position">ceo tengkurep</span>
+					</address>
+				</article>
+				<footer class="comments__footer">
+					<div class="comments__dots">
+						<img src="./src/assets/img/comments/photo/1.png" alt="photo" class="comments__img">
+					</div>
+					<div class="comments__dots ">
+						<img src="./src/assets/img/comments/photo/2.png" alt="photo" class="comments__img">
+					</div>
+					<div class="comments__dots comments__dots_big">
+						<img src="./src/assets/img/comments/photo/3.png" alt="photo" class="comments__img">
+					</div>
+					<div class="comments__dots">
+						<img src="./src/assets/img/comments/photo/4.png" alt="photo" class="comments__img">
+					</div>
+					<div class="comments__dots">
+						<img src="./src/assets/img/comments/photo/5.png" alt="photo" class="comments__img">
+					</div>
+				</footer>
+			</section>
+
+			<section id="people-say" class="news-and-brands _container">
+				<article class=" news-and-brands__news news">
+					<h2 class="news__title title title__text-left"> give us a good news</h2>
+					<form action="#" class="news__form">
+						<div class="news__wrapper">
+							<label for="name">Name </label>
+							<input id="name" type="text" class="news__item">
+						</div>
+						<div class="news__wrapper">
+							<label for="email">Email</label>
+							<input id="email" type="email" class="news__item">
+						</div>
+						<div class="news__wrapper">
+							<label for="subject">Subject</label>
+							<input id="subject" type="text" class="news__item">
+						</div>
+						<div class="news__wrapper">
+							<label for="subject">Your Message</label>
+							<textarea name="message" id="message" cols="30" rows="10" class="news__item"></textarea>
+						</div>
+						<button class="news__button button "> submit</button>
+					</form>
+				</article>
+				<article class="news-and-brands__brands brands">
+					<h2 class="brands__title title title__text-left">our happy client</h2>
+					<div class="brands__wrapper">
+						<div class="brands__item"></div>
+						<div class="brands__item"></div>
+						<div class="brands__item"></div>
+						<div class="brands__item"></div>
+						<div class="brands__item"></div>
+						<div class="brands__item"></div>
+						<div class="brands__item"></div>
+						<div class="brands__item"></div>
+						<div class="brands__item"></div>
+						<div class="brands__item"></div>
+					</div>
+				</article>
+			</section>
+		</main>
+
+		<footer id="contact" class="footer">
+			<div class="footer__wrapper _container">
+
+				<article class="footer__description description">
+					<figure class="description__logo">
+						<img src="./src/assets/img/logo.png" alt="logo" class="description__img">
+						<figcaption class="description__brand-name">tajam</figcaption>
+					</figure>
+					<p class="description__text">lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh
+						elit. Duis sed odio sit amet auctror a
+						ornare odio non mauris vitae erat in elit</p>
+					<span class="description__item">help</span>
+					<span class="description__item">terms & condition</span>
+					<span class="description__item">privacy</span>
+				</article>
+
+				<article class="footer__adress adress">
+					<h3 class="adress__title">our studio</h3>
+					<div class="adress__item">
+						<i class="fa-thin fa-location-dot"> </i>
+						<p class="adress__text">
+							Ruko cucruk, Jl. Radio luar dalem jos No.12 - 13, Kalideres - Jakarta Barat
+							11480 - Indonesia
+						</p>
+					</div>
+					<div class="adress__item">
+						<i class="fa-light fa-phone-flip"></i>
+						<span class="adress__phone">(+63) 21-2224 3333</span>
+					</div>
+				</article>
+
+				<article class="footer__stay-in-touch stay-in-touch">
+					<h3 class="stay-in-touch__title">stay in touch</h3>
+					<form action="#" class="stay-in-touch__form">
+						<label for="subscribe">
+							<input id="subscribe" type="email" class="stay-in-touch__inp"
+								placeholder="Subscribe our newsletter">
+						</label>
+						<button class="stay-in-touch__button">
+							<i class="fa-light fa-paper-plane"></i>
+						</button>
+					</form>
+					<div class="stay-in-touch__wrapper">
+						<a href="#" class="stay-in-touch__link">
+							<div class="stay-in-touch__item">
+								<i class="fa-brands fa-facebook-f"></i>
+							</div>
+						</a>
+						<a href="#" class="stay-in-touch__link">
+							<div class="stay-in-touch__item">
+								<i class="fa-brands fa-twitter"></i>
+							</div>
+						</a>
+						<a href="#" class="stay-in-touch__link">
+							<div class="stay-in-touch__item">
+								<i class="fa-light fa-basketball"></i>
+							</div>
+						</a>
+						<a href="#" class="stay-in-touch__link">
+							<div class="stay-in-touch__item">
+								<i class="fa-brands fa-instagram"></i>
+							</div>
+						</a>
+						<a href="#" class="stay-in-touch__link">
+							<div class="stay-in-touch__item">
+								<i class="fa-brands fa-google-plus-g"></i>
+							</div>
+						</a>
+						<a href="#" class="stay-in-touch">
+							<div class="stay-in-touch__item">
+								<i class="fa-brands fa-youtube"></i>
+							</div>
+						</a>
+					</div>
+					<span class="stay-in-touch__design">Copyright © 2015 - Tajem Creative</span>
+				</article>
+			</div>
+		</footer>
+	</div>
+</body>
+
+</html>
